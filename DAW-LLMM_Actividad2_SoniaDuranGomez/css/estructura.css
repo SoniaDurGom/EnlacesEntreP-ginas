@@ -1,0 +1,92 @@
+
+body { 
+    font-family: sans-serif; 
+}
+
+hr { 
+    border: 1px solid #DDDDDD; 
+    margin: 25px 0px; 
+}
+
+
+
+
+#topPagina{
+    width: 100%;
+    height: 65px;
+    
+}
+
+.logo{
+    width: 150px;
+    height: 60px;
+    float: left;
+}
+
+
+.contact{
+    width: 100px;
+    height: 60px;
+    float: right;
+   
+}
+.about{
+    width: 100px;
+    height: 60px;
+    float: right;
+}
+
+
+
+
+
+#mainPagina{
+    width: 100%;
+    height: 650px; 
+    
+}
+
+#mainPagina{
+    width: 100%;
+    height: 650px; 
+    
+}
+
+
+
+
+
+#piePagina{
+    width: 65%;
+    height: 145px;
+    margin: 5px 25%;
+}
+
+.texto{
+    width: 80%;
+    height: 100%;
+    text-align: justify;
+}
+
+
+
+
+
+#contactPagina{
+    width: 100%;
+    height: 500px; 
+    margin: 5px 3%;
+    margin-top: 100px;
+}
+.textContacto{
+    width: 24%;
+    height: 50%;
+    text-align: justify;
+}
+.contacto{
+    width: 30px;
+    height: 0px;
+    
+}
+
+
