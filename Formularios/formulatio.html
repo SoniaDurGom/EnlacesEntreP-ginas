@@ -1,6 +1,7 @@
+<!DOCTYPE html>
 <html>  
     <head>
-
+        <title>Pruebas con formularios</title>
     </head>
 
     <body>
@@ -8,26 +9,38 @@
         <p>¿Tienes alguna duda? Te responderemos en menos de 24 horas</p>
         <form>
             <label for="nombre">Nombre:</label><br>
-            <input type="text" name="nombre" size="40" value="John"><br>
+            <input type="text" id="nombre" name="nombre" size="40" value="John"> <br>
 
             <label for="correo">Correo electrónico:</label><br>
-            <input type="text" name="correo" size="40"> <br>
+            <input type="text"  id="correo" name="correo" size="40"> <br>
 
             <label for="Telefono">Teléfono:</label><br>
-                <input type="number" name="telefono">
+            <input type="number" id="Telefono" name="Telefono"> <br> 
            
-            <p>Interesado en:
-                <input type="radio" name="dawdam" value="daw"> DAW
-                <input type="radio" name="dawdam" value="dam"> DAM
-            </p>
+            <label for="genero">Género:</label><br>
+            <input type="radio" name="genero" value="hombre"> Hombre
+            <input type="radio" name="genero" value="mujer"> Mujer  <br><br>
+
+            <label for="ciclos">Interesado en:</label> 
+                <!--  <input type="radio" name="dawdam" value="daw"> DAW
+                <input type="radio" name="dawdam" value="dam"> DAM  -->
+                <select name="ciclos" id="ciclos">
+                    <option>Selecciona un departamento</option>
+                    <option value="DAW">DAW</option>
+                    <option value="DAM">DAM</option>
+                    <option value="Infantil">Infantil</option>
+                    <option value="TAFAD">TAFAD</option>
+                </select> <br> <br>
        
             <input type="checkbox" id="mensaje" name="mensaje" value="mensaje">
-            <label for="mensaje"> Acepto LOPD </label><br>
+            <label for="mensaje"> Acepto LOPD </label>
            
         <p>
             <input type="submit" value="Enviar">
-            <input type="reset" value="Borrar">
+            
         </p>
         </form>
+
     </body>
+
 </html>
